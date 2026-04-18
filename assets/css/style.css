@@ -1,0 +1,38 @@
+:root{
+    --theme-color: #0081a0;
+    --theme-color-25: rgba(0, 129, 160, 0.25);
+
+}
+body{
+
+}
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+label{
+    margin: 0;
+    padding: 0;
+    font-size: smaller;
+}
+.custom-card {
+    border: none;
+    box-shadow: 0 0 5px silver;
+}
+.custom-card .card-header{
+    background-color: var(--theme-color);
+    color: white;
+    font-weight: bold;
+}
+.form-control{
+    border: 1px solid var(--theme-color-25);
+}
+.btn-primary{
+    background-color: var(--theme-color);
+    border-color: var(--theme-color);
+}
+.btn-primary:hover{
+    background-color: var(--theme-color-25);
+    border-color: var(--theme-color);
+    color: black;
+}
